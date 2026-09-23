@@ -1,0 +1,12 @@
+# SpaceMed AI — minimal deps (loose pins, python>=3.9)
+# Core (required): streamlit, pandas, numpy, scikit-learn, plotly, networkx.
+# Optional (graceful fallback if absent): sentence-transformers (sBERT), faiss-cpu (FAISS).
+# NOTE: scipy arrives transitively via scikit-learn; not a direct import.
+streamlit
+pandas
+numpy
+scikit-learn
+plotly
+networkx
+sentence-transformers
+faiss-cpu

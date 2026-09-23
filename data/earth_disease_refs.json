@@ -1,0 +1,542 @@
+[
+  {
+    "disease_id": "OSTEO",
+    "name": "Osteoporosis",
+    "synonyms": [
+      "age-related bone loss",
+      "postmenopausal osteoporosis",
+      "disuse osteoporosis"
+    ],
+    "description": "Systemic skeletal disorder of low bone mass and microarchitectural deterioration with increased fracture risk. Microgravity unloading recapitulates accelerated bone loss via sclerostin/Wnt suppression and RANKL-driven resorption, mirroring postmenopausal and disuse osteoporosis.",
+    "genes": [
+      {
+        "symbol": "SOST",
+        "association": "OMIM",
+        "mechanism": "Encodes sclerostin, a Wnt inhibitor upregulated by unloading; loss-of-function causes high bone mass."
+      },
+      {
+        "symbol": "LRP5",
+        "association": "OMIM",
+        "mechanism": "Wnt co-receptor; loss causes osteoporosis-pseudoglioma, gain causes high bone mass."
+      },
+      {
+        "symbol": "RUNX2",
+        "association": "OMIM",
+        "mechanism": "Master osteoblast transcription factor required for differentiation and mineralization."
+      },
+      {
+        "symbol": "BGLAP",
+        "association": "GO",
+        "mechanism": "Osteocalcin marks mature osteoblast activity and bone formation rate."
+      },
+      {
+        "symbol": "COL1A1",
+        "association": "OMIM",
+        "mechanism": "Major bone matrix collagen; mutations cause osteogenesis imperfecta with fragility."
+      },
+      {
+        "symbol": "COL1A2",
+        "association": "OMIM",
+        "mechanism": "Type I collagen alpha-2 chain; variants affect bone strength and fracture risk."
+      },
+      {
+        "symbol": "TNFSF11",
+        "association": "OMIM",
+        "mechanism": "RANKL drives osteoclastogenesis; target of denosumab therapy."
+      },
+      {
+        "symbol": "TNFRSF11B",
+        "association": "OMIM",
+        "mechanism": "Osteoprotegerin decoy receptor restraining RANKL; deletion causes juvenile Paget disease."
+      },
+      {
+        "symbol": "CTSK",
+        "association": "OMIM",
+        "mechanism": "Cathepsin K degrades bone collagen; deficiency causes pycnodysostosis, inhibitors raise BMD."
+      },
+      {
+        "symbol": "ACP5",
+        "association": "GO",
+        "mechanism": "TRAP marker of osteoclast number and resorptive activity."
+      },
+      {
+        "symbol": "BMP2",
+        "association": "GO",
+        "mechanism": "Osteoinductive morphogen used in spinal fusion; drives RUNX2 expression."
+      },
+      {
+        "symbol": "WNT3A",
+        "association": "GO",
+        "mechanism": "Canonical Wnt ligand promoting osteoblastogenesis and bone accrual."
+      },
+      {
+        "symbol": "ESR1",
+        "association": "GWAS",
+        "mechanism": "Estrogen receptor alpha; GWAS locus for BMD and postmenopausal bone loss."
+      },
+      {
+        "symbol": "VDR",
+        "association": "OMIM",
+        "mechanism": "Vitamin D receptor regulating calcium homeostasis and mineralization."
+      },
+      {
+        "symbol": "PTH1R",
+        "association": "OMIM",
+        "mechanism": "PTH receptor controlling remodeling; target of teriparatide anabolic therapy."
+      }
+    ],
+    "pathways": [
+      "GO:0001503 ossification",
+      "GO:0045453 bone resorption",
+      "KEGG:hsa04310 Wnt signaling pathway",
+      "KEGG:hsa04380 Osteoclast differentiation"
+    ],
+    "pubmed": [
+      {
+        "pmid": "18323415",
+        "title": "Mechanical stimulation of bone in vivo reduces osteocyte expression of Sost/sclerostin",
+        "year": 2008
+      },
+      {
+        "citation": "Vico et al. Effects of long-term microgravity exposure on cancellous and cortical weight-bearing bones of cosmonauts. Lancet 2000;355:1006-1010"
+      },
+      {
+        "citation": "Estrada et al. GWAS meta-analysis of bone mineral density. Nat Genet 2012"
+      }
+    ]
+  },
+  {
+    "disease_id": "SARCO",
+    "name": "Sarcopenia (skeletal muscle atrophy)",
+    "synonyms": [
+      "muscle atrophy",
+      "disuse atrophy",
+      "age-related muscle wasting"
+    ],
+    "description": "Progressive loss of muscle mass, strength and function with ageing and disuse. Spaceflight unloading induces rapid atrophy through ubiquitin-proteasome activation (Atrogin-1/MuRF1), myostatin signaling and PGC-1alpha suppression, closely modeling sarcopenia.",
+    "genes": [
+      {
+        "symbol": "MSTN",
+        "association": "OMIM",
+        "mechanism": "Myostatin restrains muscle growth; null mutations cause hypermuscularity."
+      },
+      {
+        "symbol": "FBXO32",
+        "association": "GO",
+        "mechanism": "Atrogin-1 E3 ubiquitin ligase induced in every atrophy model; drives proteolysis."
+      },
+      {
+        "symbol": "TRIM63",
+        "association": "GO",
+        "mechanism": "MuRF1 E3 ligase degrading myosin heavy chain during atrophy."
+      },
+      {
+        "symbol": "MYOD1",
+        "association": "GO",
+        "mechanism": "Myogenic regulatory factor required for satellite-cell differentiation."
+      },
+      {
+        "symbol": "MYOG",
+        "association": "GO",
+        "mechanism": "Myogenin drives terminal myoblast fusion and fiber maturation."
+      },
+      {
+        "symbol": "MYH7",
+        "association": "OMIM",
+        "mechanism": "Slow beta-myosin heavy chain; fiber-type shifts mark disuse and myopathies."
+      },
+      {
+        "symbol": "ACTA1",
+        "association": "OMIM",
+        "mechanism": "Skeletal alpha-actin core thin-filament protein; mutations cause nemaline myopathy."
+      },
+      {
+        "symbol": "PPARGC1A",
+        "association": "GO",
+        "mechanism": "PGC-1alpha master regulator of mitochondrial biogenesis suppressed by unloading."
+      },
+      {
+        "symbol": "FOXO1",
+        "association": "GO",
+        "mechanism": "Transcription factor inducing Atrogin-1/MuRF1 under Akt inhibition."
+      },
+      {
+        "symbol": "FOXO3",
+        "association": "GO",
+        "mechanism": "Longevity-linked factor coordinating autophagy and proteasome atrophy programs."
+      },
+      {
+        "symbol": "IGF1",
+        "association": "GO",
+        "mechanism": "Anabolic growth factor activating Akt/mTOR hypertrophy signaling."
+      },
+      {
+        "symbol": "CAPN3",
+        "association": "OMIM",
+        "mechanism": "Calpain-3 protease for sarcomere remodeling; mutations cause LGMD2A."
+      },
+      {
+        "symbol": "MB",
+        "association": "GO",
+        "mechanism": "Myoglobin oxygen reservoir reflecting oxidative capacity and fiber type."
+      }
+    ],
+    "pathways": [
+      "GO:0043403 skeletal muscle tissue regeneration",
+      "GO:0014742 muscle hypertrophy",
+      "KEGG:hsa04211 Longevity regulating pathway",
+      "KEGG:hsa04152 AMPK signaling pathway"
+    ],
+    "pubmed": [
+      {
+        "pmid": "9147889",
+        "title": "Regulation of skeletal muscle mass in mice by a new TGF-beta superfamily member",
+        "year": 1997
+      },
+      {
+        "citation": "Bodine et al. Identification of ubiquitin ligases required for skeletal muscle atrophy. Science 2001;294:1704-1708"
+      },
+      {
+        "citation": "Fitts et al. Prolonged space flight-induced alterations in human skeletal muscle fibres. J Physiol 2010;588:3567-3592"
+      }
+    ]
+  },
+  {
+    "disease_id": "IMMUNOSEN",
+    "name": "Immune senescence / inflammaging",
+    "synonyms": [
+      "inflammaging",
+      "immunosenescence",
+      "SASP",
+      "chronic low-grade inflammation"
+    ],
+    "description": "Age-related remodeling of immunity with senescent-cell accumulation, SASP cytokine secretion (IL-6, IL-1B, CCL2) and p16/p21 checkpoint activation. Spaceflight reproduces blunted adaptive responses with elevated innate inflammation and latent-virus reactivation.",
+    "genes": [
+      {
+        "symbol": "IL6",
+        "association": "GO",
+        "mechanism": "Canonical SASP cytokine and inflammaging biomarker predicting frailty and mortality."
+      },
+      {
+        "symbol": "TNF",
+        "association": "GO",
+        "mechanism": "Master pro-inflammatory cytokine driving NF-kB senescence reinforcement."
+      },
+      {
+        "symbol": "IL1B",
+        "association": "GO",
+        "mechanism": "Inflammasome product central to SASP initiation and paracrine senescence."
+      },
+      {
+        "symbol": "CCL2",
+        "association": "GO",
+        "mechanism": "Monocyte chemoattractant recruiting macrophages to senescent niches."
+      },
+      {
+        "symbol": "CXCL10",
+        "association": "GO",
+        "mechanism": "Interferon-induced chemokine elevated with ageing and viral reactivation."
+      },
+      {
+        "symbol": "IFNG",
+        "association": "GO",
+        "mechanism": "Th1 cytokine commonly suppressed in flight, impairing antiviral defense."
+      },
+      {
+        "symbol": "CDKN2A",
+        "association": "OMIM",
+        "mechanism": "p16INK4a senescence effector; expression rises exponentially with age."
+      },
+      {
+        "symbol": "CDKN1A",
+        "association": "GO",
+        "mechanism": "p21CIP1 DNA-damage senescence checkpoint downstream of p53."
+      },
+      {
+        "symbol": "TP53",
+        "association": "OMIM",
+        "mechanism": "Guardian of genome gating senescence versus apoptosis after damage."
+      },
+      {
+        "symbol": "NFKB1",
+        "association": "GO",
+        "mechanism": "Master SASP transcription program sustaining chronic inflammation."
+      },
+      {
+        "symbol": "SERPINE1",
+        "association": "GO",
+        "mechanism": "PAI-1 SASP factor and fibrosis mediator marking senescent burden."
+      },
+      {
+        "symbol": "LYZ",
+        "association": "GO",
+        "mechanism": "Lysozyme innate-defense enzyme altered in flight immune dysregulation."
+      }
+    ],
+    "pathways": [
+      "GO:0006954 inflammatory response",
+      "GO:0090399 replicative senescence",
+      "KEGG:hsa04668 TNF signaling pathway"
+    ],
+    "pubmed": [
+      {
+        "pmid": "9060469",
+        "title": "Oncogenic ras provokes premature cell senescence associated with accumulation of p53 and p16",
+        "year": 1997
+      },
+      {
+        "citation": "Franceschi et al. Inflamm-aging: an evolutionary perspective on immunosenescence. Ann N Y Acad Sci 2000"
+      },
+      {
+        "citation": "Crucian et al. Immune system dysregulation during spaceflight. Front Immunol 2018"
+      }
+    ]
+  },
+  {
+    "disease_id": "NEURODEG",
+    "name": "Neurodegeneration (spaceflight-associated neurocognitive risk)",
+    "synonyms": [
+      "Alzheimer disease",
+      "mild cognitive impairment",
+      "radiation-induced cognitive decline"
+    ],
+    "description": "Bonus CNS panel linking flight stressors (radiation, fluid shifts, isolation) to neuroinflammation, reduced BDNF neurotrophism, astrogliosis and Alzheimer-like amyloid/tau signatures relevant to late-life dementia risk.",
+    "genes": [
+      {
+        "symbol": "BDNF",
+        "association": "GO",
+        "mechanism": "Neurotrophin supporting hippocampal plasticity; reduced by flight and in Alzheimer disease."
+      },
+      {
+        "symbol": "GFAP",
+        "association": "GO",
+        "mechanism": "Astrocyte activation marker elevated in gliosis and neurodegeneration."
+      },
+      {
+        "symbol": "APOE",
+        "association": "OMIM",
+        "mechanism": "Strongest late-onset Alzheimer risk gene (E4 allele) modulating amyloid clearance."
+      },
+      {
+        "symbol": "MAPT",
+        "association": "OMIM",
+        "mechanism": "Tau protein forming neurofibrillary tangles in tauopathies."
+      },
+      {
+        "symbol": "IL6",
+        "association": "GO",
+        "mechanism": "Neuroinflammatory cytokine linking peripheral SASP to cognitive decline."
+      },
+      {
+        "symbol": "TNF",
+        "association": "GO",
+        "mechanism": "Microglial cytokine driving synaptic loss in dementia models."
+      },
+      {
+        "symbol": "CDKN2A",
+        "association": "GO",
+        "mechanism": "Senescent glia marker accumulating in aged and irradiated brain."
+      },
+      {
+        "symbol": "SOD1",
+        "association": "OMIM",
+        "mechanism": "Antioxidant defense whose dysfunction causes oxidative neuronal injury."
+      },
+      {
+        "symbol": "SOD2",
+        "association": "GO",
+        "mechanism": "Mitochondrial superoxide dismutase protecting neurons from radiation ROS."
+      },
+      {
+        "symbol": "HMOX1",
+        "association": "GO",
+        "mechanism": "Stress-inducible heme oxygenase marking oxidative stress in glia."
+      }
+    ],
+    "pathways": [
+      "GO:0007399 nervous system development",
+      "KEGG:hsa05010 Alzheimer disease",
+      "GO:0006954 inflammatory response"
+    ],
+    "pubmed": [
+      {
+        "citation": "Britten et al. Space radiation and cognitive impairment. Radiat Res 2020"
+      },
+      {
+        "citation": "Cancedda et al. Hippocampal neurogenesis and spaceflight. Neuroscience 2019"
+      }
+    ]
+  },
+  {
+    "disease_id": "CARDIO",
+    "name": "Cardiovascular deconditioning",
+    "synonyms": [
+      "cardiac atrophy",
+      "orthostatic intolerance",
+      "spaceflight cardiomyopathy"
+    ],
+    "description": "Microgravity cardiac unloading with reduced stroke volume, myosin isoform switching, endothelial dysfunction and arterial stiffness. Flight mirrors bed-rest cardiac atrophy and early heart-failure remodeling with natriuretic-peptide activation.",
+    "genes": [
+      {
+        "symbol": "MYH6",
+        "association": "OMIM",
+        "mechanism": "Alpha-myosin fast isoform downregulated in unloaded and failing hearts."
+      },
+      {
+        "symbol": "MYH7",
+        "association": "OMIM",
+        "mechanism": "Beta-myosin upregulated in hypertrophic remodeling and flight hearts."
+      },
+      {
+        "symbol": "NPPA",
+        "association": "GO",
+        "mechanism": "Atrial natriuretic peptide released under wall stress and volume shifts."
+      },
+      {
+        "symbol": "ACTA1",
+        "association": "OMIM",
+        "mechanism": "Cytoskeletal actin reflecting sarcomeric remodeling in deconditioning."
+      },
+      {
+        "symbol": "VEGFA",
+        "association": "GO",
+        "mechanism": "Angiogenic factor suppressed in flight, impairing microvascular maintenance."
+      },
+      {
+        "symbol": "HIF1A",
+        "association": "GO",
+        "mechanism": "Hypoxia-inducible factor coordinating vascular adaptation to unloading."
+      },
+      {
+        "symbol": "NOS3",
+        "association": "OMIM",
+        "mechanism": "Endothelial nitric oxide synthase governing vasodilation; reduced in stiffness."
+      },
+      {
+        "symbol": "TGFB1",
+        "association": "GO",
+        "mechanism": "Profibrotic cytokine driving cardiac fibrosis after remodeling."
+      },
+      {
+        "symbol": "MMP9",
+        "association": "GO",
+        "mechanism": "Matrix metalloproteinase remodeling extracellular matrix in atrophy."
+      },
+      {
+        "symbol": "TIMP1",
+        "association": "GO",
+        "mechanism": "Endogenous MMP inhibitor balancing fibrotic remodeling."
+      },
+      {
+        "symbol": "CCL2",
+        "association": "GO",
+        "mechanism": "Monocyte chemoattractant linking vascular inflammation to stiffness."
+      },
+      {
+        "symbol": "IL6",
+        "association": "GO",
+        "mechanism": "Vascular inflammation mediator elevated in deconditioning."
+      }
+    ],
+    "pathways": [
+      "GO:0008016 regulation of heart contraction",
+      "GO:0001525 angiogenesis",
+      "KEGG:hsa04261 Adrenergic signaling in cardiomyocytes"
+    ],
+    "pubmed": [
+      {
+        "pmid": "30948560",
+        "title": "The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight",
+        "year": 2019
+      },
+      {
+        "citation": "Perhonen et al. Cardiac atrophy after bed rest and spaceflight. J Appl Physiol 2001"
+      }
+    ]
+  },
+  {
+    "disease_id": "RADIOCA",
+    "name": "Space radiation carcinogenesis",
+    "synonyms": [
+      "radiation-induced cancer",
+      "DNA damage response",
+      "genomic instability"
+    ],
+    "description": "High-LET galactic cosmic rays and solar particles cause clustered DNA lesions, p53 checkpoint activation and senescence or misrepair that elevates long-term cancer risk. Flight signatures center on ATM/BRCA/RAD51 repair capacity and GADD45A/CDKN1A arrest.",
+    "genes": [
+      {
+        "symbol": "ATM",
+        "association": "OMIM",
+        "mechanism": "Apical DNA-damage kinase mutated in ataxia-telangiectasia with radiosensitivity."
+      },
+      {
+        "symbol": "BRCA1",
+        "association": "OMIM",
+        "mechanism": "Homologous-recombination repair gene; loss confers breast/ovarian cancer risk."
+      },
+      {
+        "symbol": "CHEK2",
+        "association": "OMIM",
+        "mechanism": "Checkpoint kinase relaying ATM to p53/CDC25 arrest and apoptosis."
+      },
+      {
+        "symbol": "GADD45A",
+        "association": "GO",
+        "mechanism": "Stress-inducible growth-arrest transcript, a biodosimetry marker of irradiation."
+      },
+      {
+        "symbol": "CDKN1A",
+        "association": "GO",
+        "mechanism": "p21 arrest effector induced by virtually all radiation exposures."
+      },
+      {
+        "symbol": "H2AFX",
+        "association": "GO",
+        "mechanism": "gamma-H2AX foci mark DNA double-strand break number and repair kinetics."
+      },
+      {
+        "symbol": "RAD51",
+        "association": "GO",
+        "mechanism": "Recombinase executing homologous-recombination repair of breaks."
+      },
+      {
+        "symbol": "MDM2",
+        "association": "OMIM",
+        "mechanism": "E3 ligase restraining p53; amplification drives sarcomas."
+      },
+      {
+        "symbol": "TP53",
+        "association": "OMIM",
+        "mechanism": "Most-mutated tumor suppressor gating irradiated-cell fate."
+      },
+      {
+        "symbol": "NFKB1",
+        "association": "GO",
+        "mechanism": "Survival signaling modulating post-irradiation inflammation and fate."
+      },
+      {
+        "symbol": "NFE2L2",
+        "association": "GO",
+        "mechanism": "NRF2 oxidative-stress regulator mitigating radiation ROS damage."
+      },
+      {
+        "symbol": "SERPINE1",
+        "association": "GO",
+        "mechanism": "p53-target SASP/fibrosis gene elevated after therapeutic irradiation."
+      }
+    ],
+    "pathways": [
+      "GO:0006281 DNA repair",
+      "KEGG:hsa04115 p53 signaling pathway",
+      "GO:0006979 response to oxidative stress"
+    ],
+    "pubmed": [
+      {
+        "citation": "Beheshti et al. Space radiation and DNA damage response. Front Physiol 2021"
+      },
+      {
+        "citation": "Cucinotta et al. Space radiation cancer risk projections. Radiat Environ Biophys 2017"
+      }
+    ]
+  }
+]

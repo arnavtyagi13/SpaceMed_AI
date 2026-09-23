@@ -1,0 +1,15 @@
+# SpaceMed AI — Streamlit theme (Cosmic Biology light glass; canvas detail in app.py CSS)
+[theme]
+base = "light"
+primaryColor = "#40358C"
+backgroundColor = "#F7F4EC"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#172033"
+font = "sans serif"
+
+[server]
+headless = true
+enableCORS = false
+
+[browser]
+gatherUsageStats = false

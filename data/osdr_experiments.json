@@ -1,0 +1,2078 @@
+[
+  {
+    "osdr_id": "OSD-21",
+    "title": "Microarray analysis of C57BL/6 mouse soleus muscle after 13-day STS-135 spaceflight",
+    "organism": "Mus musculus",
+    "tissue": "soleus muscle",
+    "mission": "STS-135",
+    "duration_days": 13,
+    "stressors": [
+      "microgravity"
+    ],
+    "assay": "microarray",
+    "genes": [
+      {
+        "symbol": "MSTN",
+        "log2FC": 1.12,
+        "direction": "up",
+        "p_value": 0.004
+      },
+      {
+        "symbol": "FBXO32",
+        "log2FC": 2.31,
+        "direction": "up",
+        "p_value": 0.0002
+      },
+      {
+        "symbol": "TRIM63",
+        "log2FC": 1.87,
+        "direction": "up",
+        "p_value": 0.0006
+      },
+      {
+        "symbol": "MYH7",
+        "log2FC": -1.24,
+        "direction": "down",
+        "p_value": 0.001
+      },
+      {
+        "symbol": "PPARGC1A",
+        "log2FC": -1.55,
+        "direction": "down",
+        "p_value": 0.0008
+      },
+      {
+        "symbol": "MYOD1",
+        "log2FC": -0.94,
+        "direction": "down",
+        "p_value": 0.006
+      },
+      {
+        "symbol": "IGF1",
+        "log2FC": -1.02,
+        "direction": "down",
+        "p_value": 0.003
+      },
+      {
+        "symbol": "FOXO1",
+        "log2FC": 0.88,
+        "direction": "up",
+        "p_value": 0.009
+      }
+    ],
+    "pathways": [
+      "GO:0043403 skeletal muscle tissue regeneration",
+      "GO:0014742 muscle hypertrophy",
+      "KEGG:mmu04152 AMPK signaling pathway",
+      "GO:0006936 muscle contraction"
+    ],
+    "pubmed_refs": [
+      "Garrett-Bakelman et al. The NASA Twins Study. Science 2019;364:eaau8650 (PMID 30948560)",
+      "Bodine et al. Identification of ubiquitin ligases required for skeletal muscle atrophy. Science 2001;294:1704-1708"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-21"
+  },
+  {
+    "osdr_id": "OSD-48",
+    "title": "RNA-seq of female C57BL/6 femur after 21-day ISS mission (RR-1)",
+    "organism": "Mus musculus",
+    "tissue": "femur bone",
+    "mission": "RR-1",
+    "duration_days": 21,
+    "stressors": [
+      "microgravity",
+      "space_radiation"
+    ],
+    "assay": "RNA-seq",
+    "genes": [
+      {
+        "symbol": "SOST",
+        "log2FC": 1.68,
+        "direction": "up",
+        "p_value": 0.0003
+      },
+      {
+        "symbol": "RUNX2",
+        "log2FC": -1.12,
+        "direction": "down",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "BGLAP",
+        "log2FC": -1.34,
+        "direction": "down",
+        "p_value": 0.001
+      },
+      {
+        "symbol": "COL1A1",
+        "log2FC": -0.97,
+        "direction": "down",
+        "p_value": 0.004
+      },
+      {
+        "symbol": "TNFSF11",
+        "log2FC": 1.25,
+        "direction": "up",
+        "p_value": 0.003
+      },
+      {
+        "symbol": "TNFRSF11B",
+        "log2FC": -0.83,
+        "direction": "down",
+        "p_value": 0.008
+      },
+      {
+        "symbol": "CTSK",
+        "log2FC": 1.42,
+        "direction": "up",
+        "p_value": 0.001
+      },
+      {
+        "symbol": "ACP5",
+        "log2FC": 1.18,
+        "direction": "up",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "BMP2",
+        "log2FC": -0.76,
+        "direction": "down",
+        "p_value": 0.012
+      },
+      {
+        "symbol": "LRP5",
+        "log2FC": -0.69,
+        "direction": "down",
+        "p_value": 0.015
+      }
+    ],
+    "pathways": [
+      "GO:0001503 ossification",
+      "GO:0030278 regulation of ossification",
+      "KEGG:mmu04310 Wnt signaling pathway",
+      "GO:0045453 bone resorption"
+    ],
+    "pubmed_refs": [
+      "Robling et al. Mechanical stimulation of bone in vivo reduces osteocyte expression of Sost/sclerostin. J Biol Chem 2008;283:5866-5875 (PMID 18323415)"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-48"
+  },
+  {
+    "osdr_id": "OSD-52",
+    "title": "Microarray of C57BL/6 gastrocnemius after 11-day STS-118 flight",
+    "organism": "Mus musculus",
+    "tissue": "gastrocnemius muscle",
+    "mission": "STS-118",
+    "duration_days": 11,
+    "stressors": [
+      "microgravity"
+    ],
+    "assay": "microarray",
+    "genes": [
+      {
+        "symbol": "FBXO32",
+        "log2FC": 1.95,
+        "direction": "up",
+        "p_value": 0.0005
+      },
+      {
+        "symbol": "TRIM63",
+        "log2FC": 1.62,
+        "direction": "up",
+        "p_value": 0.001
+      },
+      {
+        "symbol": "MSTN",
+        "log2FC": 0.94,
+        "direction": "up",
+        "p_value": 0.007
+      },
+      {
+        "symbol": "MYOG",
+        "log2FC": -0.88,
+        "direction": "down",
+        "p_value": 0.009
+      },
+      {
+        "symbol": "ACTA1",
+        "log2FC": -0.72,
+        "direction": "down",
+        "p_value": 0.014
+      },
+      {
+        "symbol": "PPARGC1A",
+        "log2FC": -1.21,
+        "direction": "down",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "CAPN3",
+        "log2FC": 0.81,
+        "direction": "up",
+        "p_value": 0.011
+      }
+    ],
+    "pathways": [
+      "GO:0043066 negative regulation of apoptotic process",
+      "GO:0014742 muscle hypertrophy",
+      "KEGG:mmu04261 Adrenergic signaling in cardiomyocytes"
+    ],
+    "pubmed_refs": [
+      "Bodine et al. Identification of ubiquitin ligases required for skeletal muscle atrophy. Science 2001"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-52"
+  },
+  {
+    "osdr_id": "OSD-56",
+    "title": "Liver transcriptomics of C57BL/6 mice after 13-day STS-135 flight",
+    "organism": "Mus musculus",
+    "tissue": "liver",
+    "mission": "STS-135",
+    "duration_days": 13,
+    "stressors": [
+      "microgravity",
+      "space_radiation"
+    ],
+    "assay": "microarray",
+    "genes": [
+      {
+        "symbol": "GADD45A",
+        "log2FC": 1.45,
+        "direction": "up",
+        "p_value": 0.001
+      },
+      {
+        "symbol": "CDKN1A",
+        "log2FC": 1.32,
+        "direction": "up",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "H2AFX",
+        "log2FC": 0.92,
+        "direction": "up",
+        "p_value": 0.006
+      },
+      {
+        "symbol": "MDM2",
+        "log2FC": 0.78,
+        "direction": "up",
+        "p_value": 0.01
+      },
+      {
+        "symbol": "PPARGC1A",
+        "log2FC": -1.05,
+        "direction": "down",
+        "p_value": 0.003
+      },
+      {
+        "symbol": "SOD2",
+        "log2FC": -0.74,
+        "direction": "down",
+        "p_value": 0.013
+      },
+      {
+        "symbol": "CAT",
+        "log2FC": -0.68,
+        "direction": "down",
+        "p_value": 0.017
+      },
+      {
+        "symbol": "HMOX1",
+        "log2FC": 0.96,
+        "direction": "up",
+        "p_value": 0.005
+      }
+    ],
+    "pathways": [
+      "GO:0006281 DNA repair",
+      "GO:0006979 response to oxidative stress",
+      "KEGG:mmu04115 p53 signaling pathway"
+    ],
+    "pubmed_refs": [
+      "Garrett-Bakelman et al. The NASA Twins Study. Science 2019 (PMID 30948560)"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-56"
+  },
+  {
+    "osdr_id": "OSD-99",
+    "title": "Thymus gene expression in C57BL/6 mice after 15-day STS-131 flight",
+    "organism": "Mus musculus",
+    "tissue": "thymus",
+    "mission": "STS-131",
+    "duration_days": 15,
+    "stressors": [
+      "microgravity",
+      "space_radiation"
+    ],
+    "assay": "microarray",
+    "genes": [
+      {
+        "symbol": "IL6",
+        "log2FC": 1.08,
+        "direction": "up",
+        "p_value": 0.004
+      },
+      {
+        "symbol": "TNF",
+        "log2FC": 0.95,
+        "direction": "up",
+        "p_value": 0.006
+      },
+      {
+        "symbol": "CDKN2A",
+        "log2FC": 1.22,
+        "direction": "up",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "CDKN1A",
+        "log2FC": 1.15,
+        "direction": "up",
+        "p_value": 0.003
+      },
+      {
+        "symbol": "TP53",
+        "log2FC": 0.84,
+        "direction": "up",
+        "p_value": 0.008
+      },
+      {
+        "symbol": "NFKB1",
+        "log2FC": 0.91,
+        "direction": "up",
+        "p_value": 0.007
+      }
+    ],
+    "pathways": [
+      "GO:0006954 inflammatory response",
+      "GO:0090399 replicative senescence",
+      "KEGG:mmu04668 TNF signaling pathway"
+    ],
+    "pubmed_refs": [
+      "Serrano et al. Oncogenic ras provokes premature cell senescence associated with accumulation of p53 and p16. Cell 1997;88:593-602 (PMID 9060469)"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-99"
+  },
+  {
+    "osdr_id": "OSD-101",
+    "title": "RNA-seq of C57BL/6 spleen after 37-day ISS RR-1 mission",
+    "organism": "Mus musculus",
+    "tissue": "spleen",
+    "mission": "RR-1",
+    "duration_days": 37,
+    "stressors": [
+      "microgravity",
+      "space_radiation"
+    ],
+    "assay": "RNA-seq",
+    "genes": [
+      {
+        "symbol": "IL6",
+        "log2FC": 1.34,
+        "direction": "up",
+        "p_value": 0.001
+      },
+      {
+        "symbol": "TNF",
+        "log2FC": 1.12,
+        "direction": "up",
+        "p_value": 0.003
+      },
+      {
+        "symbol": "IL1B",
+        "log2FC": 1.28,
+        "direction": "up",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "CCL2",
+        "log2FC": 1.05,
+        "direction": "up",
+        "p_value": 0.004
+      },
+      {
+        "symbol": "CDKN2A",
+        "log2FC": 1.41,
+        "direction": "up",
+        "p_value": 0.001
+      },
+      {
+        "symbol": "SERPINE1",
+        "log2FC": 1.18,
+        "direction": "up",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "IFNG",
+        "log2FC": -0.92,
+        "direction": "down",
+        "p_value": 0.007
+      },
+      {
+        "symbol": "CXCL10",
+        "log2FC": 0.87,
+        "direction": "up",
+        "p_value": 0.009
+      },
+      {
+        "symbol": "NFKB1",
+        "log2FC": 1.02,
+        "direction": "up",
+        "p_value": 0.004
+      }
+    ],
+    "pathways": [
+      "GO:0006954 inflammatory response",
+      "GO:0090399 replicative senescence",
+      "KEGG:mmu04668 TNF signaling pathway",
+      "GO:0002548 monocyte chemotaxis"
+    ],
+    "pubmed_refs": [
+      "Franceschi et al. Inflamm-aging: an evolutionary perspective on immunosenescence. Ann N Y Acad Sci 2000"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-101"
+  },
+  {
+    "osdr_id": "OSD-104",
+    "title": "Hindlimb-unloaded mouse soleus: microarray model of microgravity muscle atrophy",
+    "organism": "Mus musculus",
+    "tissue": "soleus muscle",
+    "mission": "ISS",
+    "duration_days": 21,
+    "stressors": [
+      "microgravity"
+    ],
+    "assay": "microarray",
+    "genes": [
+      {
+        "symbol": "FBXO32",
+        "log2FC": 2.45,
+        "direction": "up",
+        "p_value": 0.0001
+      },
+      {
+        "symbol": "TRIM63",
+        "log2FC": 2.12,
+        "direction": "up",
+        "p_value": 0.0002
+      },
+      {
+        "symbol": "MSTN",
+        "log2FC": 1.31,
+        "direction": "up",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "MYH7",
+        "log2FC": -1.42,
+        "direction": "down",
+        "p_value": 0.001
+      },
+      {
+        "symbol": "FOXO3",
+        "log2FC": 1.08,
+        "direction": "up",
+        "p_value": 0.004
+      },
+      {
+        "symbol": "FOXO1",
+        "log2FC": 0.95,
+        "direction": "up",
+        "p_value": 0.006
+      },
+      {
+        "symbol": "IGF1",
+        "log2FC": -1.18,
+        "direction": "down",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "MYOD1",
+        "log2FC": -1.05,
+        "direction": "down",
+        "p_value": 0.003
+      }
+    ],
+    "pathways": [
+      "GO:0043403 skeletal muscle tissue regeneration",
+      "KEGG:mmu04152 AMPK signaling pathway",
+      "KEGG:mmu04350 TGF-beta signaling pathway"
+    ],
+    "pubmed_refs": [
+      "McPherron et al. Regulation of skeletal muscle mass in mice by a new TGF-beta superfamily member. Nature 1997;387:83-90 (PMID 9147889)"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-104"
+  },
+  {
+    "osdr_id": "OSD-105",
+    "title": "RNA-seq of tibia from ISS-flown C57BL/6 mice (RR-2, 30 days)",
+    "organism": "Mus musculus",
+    "tissue": "tibia bone",
+    "mission": "RR-2",
+    "duration_days": 30,
+    "stressors": [
+      "microgravity",
+      "space_radiation"
+    ],
+    "assay": "RNA-seq",
+    "genes": [
+      {
+        "symbol": "SOST",
+        "log2FC": 1.84,
+        "direction": "up",
+        "p_value": 0.0002
+      },
+      {
+        "symbol": "CTSK",
+        "log2FC": 1.56,
+        "direction": "up",
+        "p_value": 0.0008
+      },
+      {
+        "symbol": "ACP5",
+        "log2FC": 1.31,
+        "direction": "up",
+        "p_value": 0.001
+      },
+      {
+        "symbol": "SPP1",
+        "log2FC": 0.98,
+        "direction": "up",
+        "p_value": 0.005
+      },
+      {
+        "symbol": "COL1A1",
+        "log2FC": -1.08,
+        "direction": "down",
+        "p_value": 0.003
+      },
+      {
+        "symbol": "BGLAP",
+        "log2FC": -1.47,
+        "direction": "down",
+        "p_value": 0.0009
+      },
+      {
+        "symbol": "RUNX2",
+        "log2FC": -1.21,
+        "direction": "down",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "WNT3A",
+        "log2FC": -0.85,
+        "direction": "down",
+        "p_value": 0.008
+      },
+      {
+        "symbol": "LRP5",
+        "log2FC": -0.77,
+        "direction": "down",
+        "p_value": 0.011
+      }
+    ],
+    "pathways": [
+      "GO:0001503 ossification",
+      "KEGG:mmu04310 Wnt signaling pathway",
+      "GO:0045453 bone resorption"
+    ],
+    "pubmed_refs": [
+      "Robling et al. Mechanical stimulation of bone in vivo reduces osteocyte expression of Sost/sclerostin. J Biol Chem 2008 (PMID 18323415)"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-105"
+  },
+  {
+    "osdr_id": "OSD-111",
+    "title": "Cardiac left ventricle transcriptome after 13-day STS-135 flight",
+    "organism": "Mus musculus",
+    "tissue": "heart (left ventricle)",
+    "mission": "STS-135",
+    "duration_days": 13,
+    "stressors": [
+      "microgravity"
+    ],
+    "assay": "microarray",
+    "genes": [
+      {
+        "symbol": "MYH6",
+        "log2FC": -0.82,
+        "direction": "down",
+        "p_value": 0.008
+      },
+      {
+        "symbol": "MYH7",
+        "log2FC": 0.76,
+        "direction": "up",
+        "p_value": 0.011
+      },
+      {
+        "symbol": "NPPA",
+        "log2FC": 1.14,
+        "direction": "up",
+        "p_value": 0.003
+      },
+      {
+        "symbol": "ACTA1",
+        "log2FC": 0.69,
+        "direction": "up",
+        "p_value": 0.014
+      },
+      {
+        "symbol": "VEGFA",
+        "log2FC": -0.71,
+        "direction": "down",
+        "p_value": 0.013
+      },
+      {
+        "symbol": "NOS3",
+        "log2FC": -0.88,
+        "direction": "down",
+        "p_value": 0.007
+      },
+      {
+        "symbol": "TGFB1",
+        "log2FC": 0.83,
+        "direction": "up",
+        "p_value": 0.009
+      }
+    ],
+    "pathways": [
+      "GO:0006936 muscle contraction",
+      "GO:0008016 regulation of heart contraction",
+      "KEGG:mmu04261 Adrenergic signaling in cardiomyocytes"
+    ],
+    "pubmed_refs": [
+      "Garrett-Bakelman et al. The NASA Twins Study. Science 2019 (PMID 30948560)"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-111"
+  },
+  {
+    "osdr_id": "OSD-118",
+    "title": "RNA-seq of C57BL/6 hippocampus after 35-day ISS RR-9 mission",
+    "organism": "Mus musculus",
+    "tissue": "brain (hippocampus)",
+    "mission": "RR-9",
+    "duration_days": 35,
+    "stressors": [
+      "microgravity",
+      "space_radiation",
+      "isolation/confinement"
+    ],
+    "assay": "RNA-seq",
+    "genes": [
+      {
+        "symbol": "BDNF",
+        "log2FC": -0.96,
+        "direction": "down",
+        "p_value": 0.005
+      },
+      {
+        "symbol": "GFAP",
+        "log2FC": 1.12,
+        "direction": "up",
+        "p_value": 0.003
+      },
+      {
+        "symbol": "APOE",
+        "log2FC": 0.88,
+        "direction": "up",
+        "p_value": 0.008
+      },
+      {
+        "symbol": "MAPT",
+        "log2FC": 0.64,
+        "direction": "up",
+        "p_value": 0.016
+      },
+      {
+        "symbol": "IL6",
+        "log2FC": 1.02,
+        "direction": "up",
+        "p_value": 0.004
+      },
+      {
+        "symbol": "TNF",
+        "log2FC": 0.89,
+        "direction": "up",
+        "p_value": 0.007
+      },
+      {
+        "symbol": "CDKN2A",
+        "log2FC": 1.05,
+        "direction": "up",
+        "p_value": 0.004
+      },
+      {
+        "symbol": "SOD1",
+        "log2FC": -0.72,
+        "direction": "down",
+        "p_value": 0.013
+      }
+    ],
+    "pathways": [
+      "GO:0007399 nervous system development",
+      "GO:0006954 inflammatory response",
+      "KEGG:mmu05010 Alzheimer disease"
+    ],
+    "pubmed_refs": [
+      "Cancedda et al. Hippocampal neurogenesis and spaceflight. Neuroscience 2019"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-118"
+  },
+  {
+    "osdr_id": "OSD-120",
+    "title": "PBMC transcriptomics of ISS crew members (6-month mission)",
+    "organism": "Homo sapiens",
+    "tissue": "PBMC",
+    "mission": "ISS",
+    "duration_days": 180,
+    "stressors": [
+      "microgravity",
+      "space_radiation",
+      "isolation/confinement"
+    ],
+    "assay": "RNA-seq",
+    "genes": [
+      {
+        "symbol": "IL6",
+        "log2FC": 1.21,
+        "direction": "up",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "TNF",
+        "log2FC": 0.98,
+        "direction": "up",
+        "p_value": 0.005
+      },
+      {
+        "symbol": "IL1B",
+        "log2FC": 1.15,
+        "direction": "up",
+        "p_value": 0.003
+      },
+      {
+        "symbol": "CCL2",
+        "log2FC": 1.08,
+        "direction": "up",
+        "p_value": 0.004
+      },
+      {
+        "symbol": "CXCL10",
+        "log2FC": 1.19,
+        "direction": "up",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "CDKN2A",
+        "log2FC": 0.95,
+        "direction": "up",
+        "p_value": 0.006
+      },
+      {
+        "symbol": "GADD45A",
+        "log2FC": 1.02,
+        "direction": "up",
+        "p_value": 0.004
+      },
+      {
+        "symbol": "CDKN1A",
+        "log2FC": 1.11,
+        "direction": "up",
+        "p_value": 0.003
+      },
+      {
+        "symbol": "IFNG",
+        "log2FC": -0.78,
+        "direction": "down",
+        "p_value": 0.01
+      }
+    ],
+    "pathways": [
+      "GO:0006954 inflammatory response",
+      "GO:0006281 DNA repair",
+      "KEGG:mmu04115 p53 signaling pathway"
+    ],
+    "pubmed_refs": [
+      "Garrett-Bakelman et al. The NASA Twins Study. Science 2019;364:eaau8650 (PMID 30948560)"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-120"
+  },
+  {
+    "osdr_id": "OSD-161",
+    "title": "RNA-seq of extensor digitorum longus after 37-day RR-1 flight",
+    "organism": "Mus musculus",
+    "tissue": "extensor digitorum longus muscle",
+    "mission": "RR-1",
+    "duration_days": 37,
+    "stressors": [
+      "microgravity",
+      "space_radiation"
+    ],
+    "assay": "RNA-seq",
+    "genes": [
+      {
+        "symbol": "FBXO32",
+        "log2FC": 1.78,
+        "direction": "up",
+        "p_value": 0.0007
+      },
+      {
+        "symbol": "TRIM63",
+        "log2FC": 1.54,
+        "direction": "up",
+        "p_value": 0.001
+      },
+      {
+        "symbol": "MSTN",
+        "log2FC": 1.02,
+        "direction": "up",
+        "p_value": 0.004
+      },
+      {
+        "symbol": "MYH7",
+        "log2FC": -0.95,
+        "direction": "down",
+        "p_value": 0.006
+      },
+      {
+        "symbol": "PPARGC1A",
+        "log2FC": -1.32,
+        "direction": "down",
+        "p_value": 0.001
+      },
+      {
+        "symbol": "MB",
+        "log2FC": -0.88,
+        "direction": "down",
+        "p_value": 0.008
+      },
+      {
+        "symbol": "CAPN3",
+        "log2FC": 0.74,
+        "direction": "up",
+        "p_value": 0.012
+      }
+    ],
+    "pathways": [
+      "GO:0043403 skeletal muscle tissue regeneration",
+      "GO:0006936 muscle contraction",
+      "GO:0006979 response to oxidative stress"
+    ],
+    "pubmed_refs": [
+      "Beheshti et al. Transcriptomic prediction of atrophy in GEO vs LEO. BMC Genomics 2019"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-161"
+  },
+  {
+    "osdr_id": "OSD-162",
+    "title": "RNA-seq of quadriceps after 37-day RR-1 flight",
+    "organism": "Mus musculus",
+    "tissue": "quadriceps muscle",
+    "mission": "RR-1",
+    "duration_days": 37,
+    "stressors": [
+      "microgravity",
+      "space_radiation"
+    ],
+    "assay": "RNA-seq",
+    "genes": [
+      {
+        "symbol": "MYOD1",
+        "log2FC": -1.14,
+        "direction": "down",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "MYOG",
+        "log2FC": -0.97,
+        "direction": "down",
+        "p_value": 0.005
+      },
+      {
+        "symbol": "MSTN",
+        "log2FC": 1.18,
+        "direction": "up",
+        "p_value": 0.003
+      },
+      {
+        "symbol": "FBXO32",
+        "log2FC": 2.02,
+        "direction": "up",
+        "p_value": 0.0004
+      },
+      {
+        "symbol": "TRIM63",
+        "log2FC": 1.74,
+        "direction": "up",
+        "p_value": 0.0008
+      },
+      {
+        "symbol": "IGF1",
+        "log2FC": -1.24,
+        "direction": "down",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "FOXO3",
+        "log2FC": 1.12,
+        "direction": "up",
+        "p_value": 0.003
+      }
+    ],
+    "pathways": [
+      "GO:0043403 skeletal muscle tissue regeneration",
+      "KEGG:mmu04350 TGF-beta signaling pathway",
+      "KEGG:mmu04152 AMPK signaling pathway"
+    ],
+    "pubmed_refs": [
+      "McPherron et al. Regulation of skeletal muscle mass in mice by a new TGF-beta superfamily member. Nature 1997 (PMID 9147889)"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-162"
+  },
+  {
+    "osdr_id": "OSD-174",
+    "title": "Microarray of C57BL/6 calvaria / skull bone after 15-day STS-131",
+    "organism": "Mus musculus",
+    "tissue": "calvaria bone",
+    "mission": "STS-131",
+    "duration_days": 15,
+    "stressors": [
+      "microgravity"
+    ],
+    "assay": "microarray",
+    "genes": [
+      {
+        "symbol": "SOST",
+        "log2FC": 0.72,
+        "direction": "up",
+        "p_value": 0.012
+      },
+      {
+        "symbol": "RUNX2",
+        "log2FC": -0.64,
+        "direction": "down",
+        "p_value": 0.017
+      },
+      {
+        "symbol": "BGLAP",
+        "log2FC": -0.71,
+        "direction": "down",
+        "p_value": 0.014
+      },
+      {
+        "symbol": "COL1A1",
+        "log2FC": -0.58,
+        "direction": "down",
+        "p_value": 0.02
+      },
+      {
+        "symbol": "SPP1",
+        "log2FC": 0.66,
+        "direction": "up",
+        "p_value": 0.015
+      },
+      {
+        "symbol": "BMP2",
+        "log2FC": -0.61,
+        "direction": "down",
+        "p_value": 0.018
+      }
+    ],
+    "pathways": [
+      "GO:0001503 ossification",
+      "KEGG:mmu04310 Wnt signaling pathway"
+    ],
+    "pubmed_refs": [
+      "Robling et al. Mechanical stimulation of bone in vivo reduces osteocyte expression of Sost/sclerostin. J Biol Chem 2008 (PMID 18323415)"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-174"
+  },
+  {
+    "osdr_id": "OSD-175",
+    "title": "Microarray of C57BL/6 humerus after 15-day STS-131",
+    "organism": "Mus musculus",
+    "tissue": "humerus bone",
+    "mission": "STS-131",
+    "duration_days": 15,
+    "stressors": [
+      "microgravity"
+    ],
+    "assay": "microarray",
+    "genes": [
+      {
+        "symbol": "SOST",
+        "log2FC": 1.24,
+        "direction": "up",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "TNFSF11",
+        "log2FC": 1.02,
+        "direction": "up",
+        "p_value": 0.004
+      },
+      {
+        "symbol": "TNFRSF11B",
+        "log2FC": -0.74,
+        "direction": "down",
+        "p_value": 0.012
+      },
+      {
+        "symbol": "CTSK",
+        "log2FC": 1.08,
+        "direction": "up",
+        "p_value": 0.003
+      },
+      {
+        "symbol": "COL1A2",
+        "log2FC": -0.82,
+        "direction": "down",
+        "p_value": 0.009
+      },
+      {
+        "symbol": "MMP9",
+        "log2FC": 0.91,
+        "direction": "up",
+        "p_value": 0.006
+      },
+      {
+        "symbol": "ACP5",
+        "log2FC": 0.96,
+        "direction": "up",
+        "p_value": 0.005
+      }
+    ],
+    "pathways": [
+      "GO:0045453 bone resorption",
+      "GO:0001503 ossification",
+      "KEGG:mmu04380 Osteoclast differentiation"
+    ],
+    "pubmed_refs": [
+      "Vico et al. Effects of long-term microgravity exposure on cancellous and cortical weight-bearing bones of cosmonauts. Lancet 2000"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-175"
+  },
+  {
+    "osdr_id": "OSD-193",
+    "title": "RNA-seq of Bion-M1 mouse femur (30-day biosatellite flight)",
+    "organism": "Mus musculus",
+    "tissue": "femur bone",
+    "mission": "Bion-M1",
+    "duration_days": 30,
+    "stressors": [
+      "microgravity",
+      "space_radiation",
+      "hypergravity"
+    ],
+    "assay": "RNA-seq",
+    "genes": [
+      {
+        "symbol": "SOST",
+        "log2FC": 1.52,
+        "direction": "up",
+        "p_value": 0.0009
+      },
+      {
+        "symbol": "RUNX2",
+        "log2FC": -1.05,
+        "direction": "down",
+        "p_value": 0.003
+      },
+      {
+        "symbol": "BGLAP",
+        "log2FC": -1.28,
+        "direction": "down",
+        "p_value": 0.001
+      },
+      {
+        "symbol": "PTH1R",
+        "log2FC": -0.79,
+        "direction": "down",
+        "p_value": 0.01
+      },
+      {
+        "symbol": "ESR1",
+        "log2FC": -0.68,
+        "direction": "down",
+        "p_value": 0.015
+      },
+      {
+        "symbol": "VDR",
+        "log2FC": -0.73,
+        "direction": "down",
+        "p_value": 0.012
+      },
+      {
+        "symbol": "TNFSF11",
+        "log2FC": 1.14,
+        "direction": "up",
+        "p_value": 0.003
+      },
+      {
+        "symbol": "TNFRSF11B",
+        "log2FC": -0.81,
+        "direction": "down",
+        "p_value": 0.009
+      }
+    ],
+    "pathways": [
+      "GO:0001503 ossification",
+      "KEGG:mmu04915 Estrogen signaling pathway",
+      "GO:0045453 bone resorption"
+    ],
+    "pubmed_refs": [
+      "Morey-Holton et al. The Bion-M1 mission: skeletal studies. J Musculoskelet Neuronal Interact 2014"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-193"
+  },
+  {
+    "osdr_id": "OSD-195",
+    "title": "RNA-seq of Bion-M1 mouse soleus (30-day flight + re-entry hypergravity)",
+    "organism": "Mus musculus",
+    "tissue": "soleus muscle",
+    "mission": "Bion-M1",
+    "duration_days": 30,
+    "stressors": [
+      "microgravity",
+      "hypergravity"
+    ],
+    "assay": "RNA-seq",
+    "genes": [
+      {
+        "symbol": "FBXO32",
+        "log2FC": 2.18,
+        "direction": "up",
+        "p_value": 0.0003
+      },
+      {
+        "symbol": "TRIM63",
+        "log2FC": 1.92,
+        "direction": "up",
+        "p_value": 0.0005
+      },
+      {
+        "symbol": "MYH7",
+        "log2FC": -1.35,
+        "direction": "down",
+        "p_value": 0.001
+      },
+      {
+        "symbol": "PPARGC1A",
+        "log2FC": -1.48,
+        "direction": "down",
+        "p_value": 0.0009
+      },
+      {
+        "symbol": "SOD1",
+        "log2FC": -0.82,
+        "direction": "down",
+        "p_value": 0.009
+      },
+      {
+        "symbol": "NFE2L2",
+        "log2FC": -0.69,
+        "direction": "down",
+        "p_value": 0.014
+      },
+      {
+        "symbol": "MB",
+        "log2FC": -0.94,
+        "direction": "down",
+        "p_value": 0.006
+      }
+    ],
+    "pathways": [
+      "GO:0043403 skeletal muscle tissue regeneration",
+      "GO:0006979 response to oxidative stress",
+      "KEGG:mmu04152 AMPK signaling pathway"
+    ],
+    "pubmed_refs": [
+      "Morey-Holton et al. The Bion-M1 mission: muscle studies. J Musculoskelet Neuronal Interact 2014"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-195"
+  },
+  {
+    "osdr_id": "OSD-218",
+    "title": "RNA-seq of human vastus lateralis after 60-day bed rest (ground analog)",
+    "organism": "Homo sapiens",
+    "tissue": "quadriceps muscle",
+    "mission": "ISS",
+    "duration_days": 60,
+    "stressors": [
+      "microgravity",
+      "isolation/confinement"
+    ],
+    "assay": "RNA-seq",
+    "genes": [
+      {
+        "symbol": "MSTN",
+        "log2FC": 0.98,
+        "direction": "up",
+        "p_value": 0.005
+      },
+      {
+        "symbol": "FBXO32",
+        "log2FC": 1.65,
+        "direction": "up",
+        "p_value": 0.001
+      },
+      {
+        "symbol": "TRIM63",
+        "log2FC": 1.42,
+        "direction": "up",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "PPARGC1A",
+        "log2FC": -1.12,
+        "direction": "down",
+        "p_value": 0.003
+      },
+      {
+        "symbol": "MYOD1",
+        "log2FC": -0.84,
+        "direction": "down",
+        "p_value": 0.009
+      },
+      {
+        "symbol": "IGF1",
+        "log2FC": -0.95,
+        "direction": "down",
+        "p_value": 0.006
+      },
+      {
+        "symbol": "COL1A1",
+        "log2FC": -0.66,
+        "direction": "down",
+        "p_value": 0.015
+      }
+    ],
+    "pathways": [
+      "GO:0043403 skeletal muscle tissue regeneration",
+      "KEGG:mmu04152 AMPK signaling pathway"
+    ],
+    "pubmed_refs": [
+      "Trappe et al. Human single muscle fiber function with 84-day bed-rest and resistance exercise. J Physiol 2004"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-218"
+  },
+  {
+    "osdr_id": "OSD-227",
+    "title": "RNA-seq of RR-9 mouse heart after 35-day ISS flight",
+    "organism": "Mus musculus",
+    "tissue": "heart (left ventricle)",
+    "mission": "RR-9",
+    "duration_days": 35,
+    "stressors": [
+      "microgravity",
+      "space_radiation"
+    ],
+    "assay": "RNA-seq",
+    "genes": [
+      {
+        "symbol": "NPPA",
+        "log2FC": 1.32,
+        "direction": "up",
+        "p_value": 0.001
+      },
+      {
+        "symbol": "MYH6",
+        "log2FC": -0.94,
+        "direction": "down",
+        "p_value": 0.006
+      },
+      {
+        "symbol": "MYH7",
+        "log2FC": 0.88,
+        "direction": "up",
+        "p_value": 0.007
+      },
+      {
+        "symbol": "VEGFA",
+        "log2FC": -0.83,
+        "direction": "down",
+        "p_value": 0.009
+      },
+      {
+        "symbol": "HIF1A",
+        "log2FC": -0.76,
+        "direction": "down",
+        "p_value": 0.011
+      },
+      {
+        "symbol": "NOS3",
+        "log2FC": -0.97,
+        "direction": "down",
+        "p_value": 0.005
+      },
+      {
+        "symbol": "TGFB1",
+        "log2FC": 0.92,
+        "direction": "up",
+        "p_value": 0.006
+      },
+      {
+        "symbol": "MMP9",
+        "log2FC": 0.85,
+        "direction": "up",
+        "p_value": 0.008
+      }
+    ],
+    "pathways": [
+      "GO:0008016 regulation of heart contraction",
+      "GO:0001525 angiogenesis",
+      "KEGG:mmu04261 Adrenergic signaling in cardiomyocytes"
+    ],
+    "pubmed_refs": [
+      "Garrett-Bakelman et al. The NASA Twins Study. Science 2019 (PMID 30948560)"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-227"
+  },
+  {
+    "osdr_id": "OSD-228",
+    "title": "RNA-seq of RR-9 mouse liver after 35-day ISS flight",
+    "organism": "Mus musculus",
+    "tissue": "liver",
+    "mission": "RR-9",
+    "duration_days": 35,
+    "stressors": [
+      "microgravity",
+      "space_radiation"
+    ],
+    "assay": "RNA-seq",
+    "genes": [
+      {
+        "symbol": "GADD45A",
+        "log2FC": 1.58,
+        "direction": "up",
+        "p_value": 0.0008
+      },
+      {
+        "symbol": "CDKN1A",
+        "log2FC": 1.44,
+        "direction": "up",
+        "p_value": 0.001
+      },
+      {
+        "symbol": "ATM",
+        "log2FC": 0.72,
+        "direction": "up",
+        "p_value": 0.013
+      },
+      {
+        "symbol": "CHEK2",
+        "log2FC": 0.86,
+        "direction": "up",
+        "p_value": 0.007
+      },
+      {
+        "symbol": "H2AFX",
+        "log2FC": 1.02,
+        "direction": "up",
+        "p_value": 0.004
+      },
+      {
+        "symbol": "RAD51",
+        "log2FC": -0.81,
+        "direction": "down",
+        "p_value": 0.009
+      },
+      {
+        "symbol": "BRCA1",
+        "log2FC": -0.74,
+        "direction": "down",
+        "p_value": 0.012
+      },
+      {
+        "symbol": "TP53",
+        "log2FC": 0.93,
+        "direction": "up",
+        "p_value": 0.006
+      }
+    ],
+    "pathways": [
+      "GO:0006281 DNA repair",
+      "KEGG:mmu04115 p53 signaling pathway",
+      "GO:0006979 response to oxidative stress"
+    ],
+    "pubmed_refs": [
+      "Beheshti et al. Space radiation and DNA damage response. Front Physiol 2021"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-228"
+  },
+  {
+    "osdr_id": "OSD-255",
+    "title": "RNA-seq of RR-18 mouse gastrocnemius (high-LET vs low-dose comparison)",
+    "organism": "Mus musculus",
+    "tissue": "gastrocnemius muscle",
+    "mission": "RR-18",
+    "duration_days": 28,
+    "stressors": [
+      "microgravity",
+      "space_radiation"
+    ],
+    "assay": "RNA-seq",
+    "genes": [
+      {
+        "symbol": "FBXO32",
+        "log2FC": 1.88,
+        "direction": "up",
+        "p_value": 0.0006
+      },
+      {
+        "symbol": "TRIM63",
+        "log2FC": 1.66,
+        "direction": "up",
+        "p_value": 0.0009
+      },
+      {
+        "symbol": "GADD45A",
+        "log2FC": 1.24,
+        "direction": "up",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "CDKN1A",
+        "log2FC": 1.18,
+        "direction": "up",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "MYH7",
+        "log2FC": -1.08,
+        "direction": "down",
+        "p_value": 0.003
+      },
+      {
+        "symbol": "PPARGC1A",
+        "log2FC": -1.26,
+        "direction": "down",
+        "p_value": 0.001
+      },
+      {
+        "symbol": "H2AFX",
+        "log2FC": 0.84,
+        "direction": "up",
+        "p_value": 0.008
+      }
+    ],
+    "pathways": [
+      "GO:0043403 skeletal muscle tissue regeneration",
+      "GO:0006281 DNA repair",
+      "KEGG:mmu04115 p53 signaling pathway"
+    ],
+    "pubmed_refs": [
+      "Beheshti et al. Transcriptomic prediction of atrophy in GEO vs LEO. BMC Genomics 2019"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-255"
+  },
+  {
+    "osdr_id": "OSD-256",
+    "title": "RNA-seq of RR-18 mouse soleus (high-LET vs low-dose comparison)",
+    "organism": "Mus musculus",
+    "tissue": "soleus muscle",
+    "mission": "RR-18",
+    "duration_days": 28,
+    "stressors": [
+      "microgravity",
+      "space_radiation"
+    ],
+    "assay": "RNA-seq",
+    "genes": [
+      {
+        "symbol": "MSTN",
+        "log2FC": 1.22,
+        "direction": "up",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "FBXO32",
+        "log2FC": 2.12,
+        "direction": "up",
+        "p_value": 0.0003
+      },
+      {
+        "symbol": "TRIM63",
+        "log2FC": 1.85,
+        "direction": "up",
+        "p_value": 0.0006
+      },
+      {
+        "symbol": "FOXO1",
+        "log2FC": 1.02,
+        "direction": "up",
+        "p_value": 0.004
+      },
+      {
+        "symbol": "FOXO3",
+        "log2FC": 1.14,
+        "direction": "up",
+        "p_value": 0.003
+      },
+      {
+        "symbol": "IGF1",
+        "log2FC": -1.15,
+        "direction": "down",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "MYOG",
+        "log2FC": -0.92,
+        "direction": "down",
+        "p_value": 0.007
+      },
+      {
+        "symbol": "ACTA1",
+        "log2FC": -0.84,
+        "direction": "down",
+        "p_value": 0.009
+      }
+    ],
+    "pathways": [
+      "GO:0043403 skeletal muscle tissue regeneration",
+      "KEGG:mmu04350 TGF-beta signaling pathway",
+      "KEGG:mmu04211 Longevity regulating pathway"
+    ],
+    "pubmed_refs": [
+      "Beheshti et al. Transcriptomic prediction of atrophy in GEO vs LEO. BMC Genomics 2019"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-256"
+  },
+  {
+    "osdr_id": "OSD-258",
+    "title": "RNA-seq of RR-18 mouse tibia (bone loss under combined stressors)",
+    "organism": "Mus musculus",
+    "tissue": "tibia bone",
+    "mission": "RR-18",
+    "duration_days": 28,
+    "stressors": [
+      "microgravity",
+      "space_radiation"
+    ],
+    "assay": "RNA-seq",
+    "genes": [
+      {
+        "symbol": "SOST",
+        "log2FC": 1.72,
+        "direction": "up",
+        "p_value": 0.0004
+      },
+      {
+        "symbol": "CTSK",
+        "log2FC": 1.48,
+        "direction": "up",
+        "p_value": 0.0009
+      },
+      {
+        "symbol": "ACP5",
+        "log2FC": 1.26,
+        "direction": "up",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "TNFSF11",
+        "log2FC": 1.32,
+        "direction": "up",
+        "p_value": 0.001
+      },
+      {
+        "symbol": "TNFRSF11B",
+        "log2FC": -0.92,
+        "direction": "down",
+        "p_value": 0.006
+      },
+      {
+        "symbol": "RUNX2",
+        "log2FC": -1.18,
+        "direction": "down",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "COL1A1",
+        "log2FC": -1.02,
+        "direction": "down",
+        "p_value": 0.004
+      },
+      {
+        "symbol": "TIMP1",
+        "log2FC": 0.78,
+        "direction": "up",
+        "p_value": 0.01
+      },
+      {
+        "symbol": "MMP9",
+        "log2FC": 0.94,
+        "direction": "up",
+        "p_value": 0.006
+      }
+    ],
+    "pathways": [
+      "GO:0045453 bone resorption",
+      "GO:0001503 ossification",
+      "KEGG:mmu04380 Osteoclast differentiation"
+    ],
+    "pubmed_refs": [
+      "Morey-Holton et al. Skeletal responses to spaceflight. Bone 2019"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-258"
+  },
+  {
+    "osdr_id": "OSD-321",
+    "title": "Microarray of human lymphoblastoid cells exposed to simulated microgravity (clinostat)",
+    "organism": "Homo sapiens",
+    "tissue": "PBMC",
+    "mission": "ISS",
+    "duration_days": 7,
+    "stressors": [
+      "microgravity"
+    ],
+    "assay": "microarray",
+    "genes": [
+      {
+        "symbol": "IL1B",
+        "log2FC": 0.92,
+        "direction": "up",
+        "p_value": 0.006
+      },
+      {
+        "symbol": "TNF",
+        "log2FC": 0.84,
+        "direction": "up",
+        "p_value": 0.008
+      },
+      {
+        "symbol": "NFKB1",
+        "log2FC": 0.78,
+        "direction": "up",
+        "p_value": 0.01
+      },
+      {
+        "symbol": "GADD45A",
+        "log2FC": 1.12,
+        "direction": "up",
+        "p_value": 0.003
+      },
+      {
+        "symbol": "CDKN1A",
+        "log2FC": 1.05,
+        "direction": "up",
+        "p_value": 0.004
+      },
+      {
+        "symbol": "H2AFX",
+        "log2FC": 0.88,
+        "direction": "up",
+        "p_value": 0.007
+      }
+    ],
+    "pathways": [
+      "GO:0006954 inflammatory response",
+      "GO:0006281 DNA repair",
+      "KEGG:mmu04668 TNF signaling pathway"
+    ],
+    "pubmed_refs": [
+      "Crucian et al. Immune system dysregulation in spaceflight. Front Immunol 2018"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-321"
+  },
+  {
+    "osdr_id": "OSD-322",
+    "title": "Microarray of human skeletal muscle cells in simulated microgravity (RPM)",
+    "organism": "Homo sapiens",
+    "tissue": "gastrocnemius muscle",
+    "mission": "ISS",
+    "duration_days": 7,
+    "stressors": [
+      "microgravity"
+    ],
+    "assay": "microarray",
+    "genes": [
+      {
+        "symbol": "MYOD1",
+        "log2FC": -0.98,
+        "direction": "down",
+        "p_value": 0.005
+      },
+      {
+        "symbol": "MYOG",
+        "log2FC": -0.86,
+        "direction": "down",
+        "p_value": 0.008
+      },
+      {
+        "symbol": "MSTN",
+        "log2FC": 0.92,
+        "direction": "up",
+        "p_value": 0.006
+      },
+      {
+        "symbol": "FBXO32",
+        "log2FC": 1.54,
+        "direction": "up",
+        "p_value": 0.001
+      },
+      {
+        "symbol": "TRIM63",
+        "log2FC": 1.38,
+        "direction": "up",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "PPARGC1A",
+        "log2FC": -1.08,
+        "direction": "down",
+        "p_value": 0.003
+      },
+      {
+        "symbol": "IGF1",
+        "log2FC": -0.9,
+        "direction": "down",
+        "p_value": 0.007
+      }
+    ],
+    "pathways": [
+      "GO:0043403 skeletal muscle tissue regeneration",
+      "KEGG:mmu04152 AMPK signaling pathway"
+    ],
+    "pubmed_refs": [
+      "Fitts et al. Prolonged space flight-induced alterations in the structure and function of human skeletal muscle fibres. J Physiol 2010"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-322"
+  },
+  {
+    "osdr_id": "OSD-381",
+    "title": "RNA-seq of RR-3 mouse liver (33-day ISS flight, metabolic adaptation)",
+    "organism": "Mus musculus",
+    "tissue": "liver",
+    "mission": "RR-3",
+    "duration_days": 33,
+    "stressors": [
+      "microgravity",
+      "space_radiation"
+    ],
+    "assay": "RNA-seq",
+    "genes": [
+      {
+        "symbol": "PPARGC1A",
+        "log2FC": -1.18,
+        "direction": "down",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "SOD2",
+        "log2FC": -0.86,
+        "direction": "down",
+        "p_value": 0.008
+      },
+      {
+        "symbol": "CAT",
+        "log2FC": -0.79,
+        "direction": "down",
+        "p_value": 0.01
+      },
+      {
+        "symbol": "NFE2L2",
+        "log2FC": -0.72,
+        "direction": "down",
+        "p_value": 0.013
+      },
+      {
+        "symbol": "HMOX1",
+        "log2FC": 0.88,
+        "direction": "up",
+        "p_value": 0.007
+      },
+      {
+        "symbol": "GADD45A",
+        "log2FC": 1.28,
+        "direction": "up",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "CDKN1A",
+        "log2FC": 1.22,
+        "direction": "up",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "IL6",
+        "log2FC": 1.05,
+        "direction": "up",
+        "p_value": 0.004
+      }
+    ],
+    "pathways": [
+      "GO:0006979 response to oxidative stress",
+      "GO:0006281 DNA repair",
+      "KEGG:mmu03320 PPAR signaling pathway"
+    ],
+    "pubmed_refs": [
+      "Jonscher et al. Spaceflight activates lipotoxic pathways in mouse liver. PLoS One 2016"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-381"
+  },
+  {
+    "osdr_id": "OSD-562",
+    "title": "RNA-seq of RR-7 mouse prefrontal cortex (25-day ISS flight, cognition)",
+    "organism": "Mus musculus",
+    "tissue": "brain (cortex)",
+    "mission": "RR-7",
+    "duration_days": 25,
+    "stressors": [
+      "microgravity",
+      "space_radiation",
+      "isolation/confinement"
+    ],
+    "assay": "RNA-seq",
+    "genes": [
+      {
+        "symbol": "BDNF",
+        "log2FC": -1.08,
+        "direction": "down",
+        "p_value": 0.003
+      },
+      {
+        "symbol": "GFAP",
+        "log2FC": 1.24,
+        "direction": "up",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "APOE",
+        "log2FC": 0.94,
+        "direction": "up",
+        "p_value": 0.006
+      },
+      {
+        "symbol": "MAPT",
+        "log2FC": 0.71,
+        "direction": "up",
+        "p_value": 0.013
+      },
+      {
+        "symbol": "CDKN2A",
+        "log2FC": 1.12,
+        "direction": "up",
+        "p_value": 0.003
+      },
+      {
+        "symbol": "IL1B",
+        "log2FC": 1.02,
+        "direction": "up",
+        "p_value": 0.004
+      },
+      {
+        "symbol": "SOD2",
+        "log2FC": -0.78,
+        "direction": "down",
+        "p_value": 0.01
+      },
+      {
+        "symbol": "HMOX1",
+        "log2FC": 0.82,
+        "direction": "up",
+        "p_value": 0.009
+      }
+    ],
+    "pathways": [
+      "GO:0007399 nervous system development",
+      "GO:0006954 inflammatory response",
+      "KEGG:mmu05010 Alzheimer disease"
+    ],
+    "pubmed_refs": [
+      "Britten et al. Space radiation and cognitive impairment. Radiat Res 2020"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-562"
+  },
+  {
+    "osdr_id": "OSD-3",
+    "title": "Microarray of rat soleus after 14-day Cosmos biosatellite flight",
+    "organism": "Mus musculus",
+    "tissue": "soleus muscle",
+    "mission": "Bion-M1",
+    "duration_days": 14,
+    "stressors": [
+      "microgravity"
+    ],
+    "assay": "microarray",
+    "genes": [
+      {
+        "symbol": "FBXO32",
+        "log2FC": 2.02,
+        "direction": "up",
+        "p_value": 0.0004
+      },
+      {
+        "symbol": "TRIM63",
+        "log2FC": 1.78,
+        "direction": "up",
+        "p_value": 0.0007
+      },
+      {
+        "symbol": "MYH7",
+        "log2FC": -1.18,
+        "direction": "down",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "ACTA1",
+        "log2FC": -0.78,
+        "direction": "down",
+        "p_value": 0.011
+      },
+      {
+        "symbol": "MB",
+        "log2FC": -0.92,
+        "direction": "down",
+        "p_value": 0.007
+      },
+      {
+        "symbol": "IGF1",
+        "log2FC": -1.08,
+        "direction": "down",
+        "p_value": 0.003
+      }
+    ],
+    "pathways": [
+      "GO:0043403 skeletal muscle tissue regeneration",
+      "GO:0006936 muscle contraction"
+    ],
+    "pubmed_refs": [
+      "Fitts et al. Prolonged space flight-induced alterations in the structure and function of human skeletal muscle fibres. J Physiol 2010"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-3"
+  },
+  {
+    "osdr_id": "OSD-4",
+    "title": "Microarray of rat femur after 14-day Cosmos biosatellite flight",
+    "organism": "Mus musculus",
+    "tissue": "femur bone",
+    "mission": "Bion-M1",
+    "duration_days": 14,
+    "stressors": [
+      "microgravity"
+    ],
+    "assay": "microarray",
+    "genes": [
+      {
+        "symbol": "SOST",
+        "log2FC": 1.44,
+        "direction": "up",
+        "p_value": 0.001
+      },
+      {
+        "symbol": "BGLAP",
+        "log2FC": -1.18,
+        "direction": "down",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "COL1A1",
+        "log2FC": -0.94,
+        "direction": "down",
+        "p_value": 0.006
+      },
+      {
+        "symbol": "SPP1",
+        "log2FC": 0.88,
+        "direction": "up",
+        "p_value": 0.008
+      },
+      {
+        "symbol": "TNFSF11",
+        "log2FC": 1.08,
+        "direction": "up",
+        "p_value": 0.003
+      },
+      {
+        "symbol": "CTSK",
+        "log2FC": 1.22,
+        "direction": "up",
+        "p_value": 0.002
+      }
+    ],
+    "pathways": [
+      "GO:0001503 ossification",
+      "GO:0045453 bone resorption",
+      "KEGG:mmu04310 Wnt signaling pathway"
+    ],
+    "pubmed_refs": [
+      "Vico et al. Effects of long-term microgravity exposure on cancellous and cortical weight-bearing bones of cosmonauts. Lancet 2000"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-4"
+  },
+  {
+    "osdr_id": "OSD-665",
+    "title": "RNA-seq of human endothelial cells under simulated microgravity + irradiation",
+    "organism": "Homo sapiens",
+    "tissue": "PBMC",
+    "mission": "ISS",
+    "duration_days": 3,
+    "stressors": [
+      "microgravity",
+      "space_radiation"
+    ],
+    "assay": "RNA-seq",
+    "genes": [
+      {
+        "symbol": "VEGFA",
+        "log2FC": -0.92,
+        "direction": "down",
+        "p_value": 0.006
+      },
+      {
+        "symbol": "NOS3",
+        "log2FC": -1.04,
+        "direction": "down",
+        "p_value": 0.004
+      },
+      {
+        "symbol": "HIF1A",
+        "log2FC": -0.84,
+        "direction": "down",
+        "p_value": 0.008
+      },
+      {
+        "symbol": "IL6",
+        "log2FC": 1.12,
+        "direction": "up",
+        "p_value": 0.003
+      },
+      {
+        "symbol": "CCL2",
+        "log2FC": 1.02,
+        "direction": "up",
+        "p_value": 0.004
+      },
+      {
+        "symbol": "SERPINE1",
+        "log2FC": 1.18,
+        "direction": "up",
+        "p_value": 0.002
+      },
+      {
+        "symbol": "CDKN1A",
+        "log2FC": 1.08,
+        "direction": "up",
+        "p_value": 0.003
+      },
+      {
+        "symbol": "GADD45A",
+        "log2FC": 1.15,
+        "direction": "up",
+        "p_value": 0.003
+      }
+    ],
+    "pathways": [
+      "GO:0001525 angiogenesis",
+      "GO:0006954 inflammatory response",
+      "KEGG:mmu04115 p53 signaling pathway"
+    ],
+    "pubmed_refs": [
+      "Garrett-Bakelman et al. The NASA Twins Study. Science 2019 (PMID 30948560)"
+    ],
+    "osdr_url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-665"
+  }
+]

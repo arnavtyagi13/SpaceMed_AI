@@ -1,0 +1,66 @@
+symbol,full_name,function,go_terms,uniprot_summary
+SOST,Sclerostin,Secreted Wnt antagonist from osteocytes suppressing bone formation,GO:0001503 ossification; GO:0030111 regulation of Wnt signaling,Osteocyte-derived inhibitor of LRP5/6; target of romosozumab for osteoporosis.
+RUNX2,Runt-related transcription factor 2,Master regulator of osteoblast differentiation,GO:0001503 ossification; GO:0045669 positive regulation of osteoblast differentiation,Essential for bone mineralization; mutations cause cleidocranial dysplasia.
+BGLAP,Osteocalcin,Bone gamma-carboxyglutamate protein marking formation,GO:0001503 ossification; GO:0070166 osteoblast differentiation,Secreted by mature osteoblasts; serum marker of bone turnover.
+COL1A1,Collagen type I alpha 1,Principal organic matrix protein of bone,GO:0030198 extracellular matrix organization; GO:0001503 ossification,Most abundant bone protein; mutations cause osteogenesis imperfecta.
+SPP1,Osteopontin,Phosphorylated matrix protein bridging cells and mineral,GO:0001503 ossification; GO:0006954 inflammatory response,Mediates osteoclast attachment; elevated in remodeling and inflammation.
+TNFSF11,RANKL (receptor activator of NF-kB ligand),Key osteoclast differentiation factor,GO:0045453 bone resorption; GO:0032703 osteoclast differentiation,Target of denosumab; overexpression drives resorptive bone loss.
+TNFRSF11B,Osteoprotegerin,Decoy receptor for RANKL,GO:0045453 bone resorption; GO:0032703 osteoclast differentiation,Endogenous anti-resorptive; loss causes early-onset Paget disease.
+CTSK,Cathepsin K,Lysosomal cysteine protease degrading collagen,GO:0045453 bone resorption; GO:0006508 proteolysis,Osteoclast effector enzyme; inhibitors were developed to raise BMD.
+WNT3A,Wnt family member 3A,Canonical Wnt ligand,GO:0016055 Wnt signaling pathway; GO:0001503 ossification,Promotes osteoblastogenesis and stem-cell self-renewal.
+LRP5,LDL receptor related protein 5,Wnt co-receptor,GO:0016055 Wnt signaling pathway; GO:0001503 ossification,Gain causes high bone mass; loss causes osteoporosis-pseudoglioma.
+BMP2,Bone morphogenetic protein 2,Osteoinductive TGF-beta family ligand,GO:0001503 ossification; GO:04350 TGF-beta signaling,Clinical osteoinductive agent for spinal fusion.
+ACP5,Tartrate-resistant acid phosphatase 5,Metallophosphatase of osteoclasts,GO:0045453 bone resorption; GO:0001503 ossification,TRAP serum marker of osteoclast number and activity.
+MYOD1,Myogenic differentiation 1,Basic helix-loop-helix myogenic factor,GO:0043403 skeletal muscle tissue regeneration; GO:0007519 myogenesis,Determines myoblast identity; required for regeneration.
+MYOG,Myogenin,Terminal myogenic regulatory factor,GO:0007519 myogenesis; GO:0043403 skeletal muscle tissue regeneration,Drives myoblast fusion into multinucleated fibers.
+MSTN,Myostatin (GDF8),TGF-beta family negative regulator of muscle mass,GO:0014742 muscle hypertrophy; GO:04350 TGF-beta signaling,Null phenotypes show doubling of muscle mass; therapeutic blockade target.
+FBXO32,F-box protein 32 (Atrogin-1),Muscle-specific E3 ubiquitin ligase,GO:0043403 skeletal muscle tissue regeneration; GO:0006511 ubiquitin-dependent catabolism,"Universal atrophy marker induced by unloading, fasting and disease."
+TRIM63,Tripartite motif 63 (MuRF1),Muscle RING-finger E3 ligase,GO:0006511 ubiquitin-dependent catabolism; GO:0043403 skeletal muscle tissue regeneration,Degrades myosin heavy chain; knockout resists disuse atrophy.
+MYH7,Myosin heavy chain 7 (beta),Slow-oxidative sarcomeric motor,GO:0006936 muscle contraction; GO:0008016 regulation of heart contraction,Fiber-type switch indicator; mutations cause cardiomyopathy.
+ACTA1,Actin alpha 1 skeletal muscle,Thin-filament core protein,GO:0006936 muscle contraction; GO:0030049 muscle filament sliding,Essential contractile protein; mutations cause nemaline myopathy.
+PPARGC1A,PGC-1alpha,Coactivator of mitochondrial biogenesis,GO:0006979 response to oxidative stress; GO:0006119 oxidative phosphorylation,Suppressed by unloading; overexpression protects against atrophy.
+FOXO1,Forkhead box O1,Transcription factor for atrophy genes,GO:0006511 ubiquitin-dependent catabolism; GO:0043403 skeletal muscle tissue regeneration,Activated when Akt falls; induces Atrogin-1 and MuRF1.
+FOXO3,Forkhead box O3,Longevity-linked atrophy/autophagy factor,GO:0006914 autophagy; GO:04211 longevity regulating pathway,Coordinates proteasome and lysosome programs; human longevity variants.
+IGF1,Insulin-like growth factor 1,Anabolic muscle/bone growth factor,GO:0014742 muscle hypertrophy; GO:0008284 positive regulation of cell proliferation,Activates Akt/mTOR hypertrophy; falls with unloading and ageing.
+CAPN3,Calpain 3,Muscle-specific calcium protease,GO:0050794 regulation of cellular process; GO:0006936 muscle contraction,Sarcomere remodeling; mutations cause limb-girdle muscular dystrophy 2A.
+IL6,Interleukin 6,Pleiotropic SASP cytokine,GO:0006954 inflammatory response; GO:0070098 chemokine-mediated signaling,Core inflammaging marker predicting frailty and mortality.
+TNF,Tumor necrosis factor,Master inflammatory cytokine,GO:0006954 inflammatory response; GO:04668 TNF signaling,"Drives NF-kB, cachexia and chronic disease progression."
+IL1B,Interleukin 1 beta,Inflammasome effector cytokine,GO:0006954 inflammatory response; GO:0070498 interleukin-1-mediated signaling,Initiates SASP and paracrine senescence; blocked by canakinumab.
+CCL2,C-C motif chemokine ligand 2 (MCP-1),Monocyte chemoattractant,GO:0002548 monocyte chemotaxis; GO:0006954 inflammatory response,Recruits macrophages to senescent and injured tissue.
+CDKN2A,Cyclin-dependent kinase inhibitor 2A (p16),Senescence checkpoint,GO:0090399 replicative senescence; GO:0007050 cell cycle arrest,Gold-standard senescent-cell burden marker rising with age.
+CDKN1A,Cyclin-dependent kinase inhibitor 1A (p21),p53-driven arrest effector,GO:0007050 cell cycle arrest; GO:04115 p53 signaling,Universal radiation/senescence response gene.
+TP53,Tumor protein p53,Guardian of the genome,GO:0006281 DNA repair; GO:04115 p53 signaling,"Gates arrest, senescence or apoptosis after damage."
+NFKB1,Nuclear factor kappa B subunit 1,Master inflammatory transcription factor,GO:0006954 inflammatory response; GO:04668 TNF signaling,Sustains SASP secretome of senescent cells.
+IFNG,Interferon gamma,Th1 antiviral cytokine,GO:0006954 inflammatory response; GO:0060333 interferon-gamma signaling,Suppressed in flight; loss impairs viral control.
+CXCL10,C-X-C motif chemokine ligand 10,Interferon-induced T-cell chemoattractant,GO:0006954 inflammatory response; GO:0070098 chemokine-mediated signaling,Elevated with ageing and latent-virus reactivation.
+LYZ,Lysozyme,Innate antibacterial enzyme,GO:0006954 inflammatory response; GO:0042742 defense response to bacterium,Myeloid defense marker perturbed by flight.
+SERPINE1,Plasminogen activator inhibitor-1 (PAI-1),SASP fibrinolysis inhibitor,GO:0090399 replicative senescence; GO:0030198 extracellular matrix organization,Senescence and fibrosis marker; elevated post-irradiation.
+ATM,ATM serine/threonine kinase,Apical DNA double-strand-break sensor,GO:0006281 DNA repair; GO:04115 p53 signaling,Mutations cause ataxia-telangiectasia with radiosensitivity.
+BRCA1,BRCA1 DNA repair associated,Homologous recombination repair scaffold,GO:0006281 DNA repair; GO:0006974 DNA damage response,Loss confers breast/ovarian cancer risk and PARP-inhibitor sensitivity.
+CHEK2,Checkpoint kinase 2,ATM-to-p53 signal relay,GO:0006977 DNA damage response; GO:04115 p53 signaling,Germline variants confer multi-organ cancer risk.
+GADD45A,Growth arrest and DNA damage inducible alpha,Stress biodosimetry transcript,GO:0006974 DNA damage response; GO:0007050 cell cycle arrest,Robustly induced by ionizing radiation and unloading.
+H2AFX,H2A.X variant histone,Double-strand-break chromatin mark,GO:0006281 DNA repair; GO:0006974 DNA damage response,gamma-H2AX foci quantify break number and repair.
+RAD51,RAD51 recombinase,Homologous-recombination strand exchange,GO:0006281 DNA repair; GO:0000724 homologous recombination,Executes error-free break repair; suppressed after high-LET exposure.
+MDM2,MDM2 proto-oncogene,E3 ligase restraining p53,GO:04115 p53 signaling; GO:0006511 ubiquitin-dependent catabolism,Amplified in sarcomas; target of nutlin-class drugs.
+VEGFA,Vascular endothelial growth factor A,Master angiogenic factor,GO:0001525 angiogenesis; GO:0045766 positive regulation of angiogenesis,Suppressed in unloading; loss impairs microvascular maintenance.
+HIF1A,Hypoxia inducible factor 1 alpha,Oxygen-sensitive transcription factor,GO:0001525 angiogenesis; GO:0070482 response to oxygen levels,Coordinates vascular/metabolic adaptation to deconditioning.
+NOS3,Nitric oxide synthase 3 (eNOS),Endothelial vasodilator enzyme,GO:0001525 angiogenesis; GO:0008016 regulation of heart contraction,Reduced in arterial stiffness and endothelial dysfunction.
+NPPA,Natriuretic peptide A,Atrial stretch hormone,GO:0008016 regulation of heart contraction; GO:0006936 muscle contraction,Released under wall stress; marker of cardiac remodeling.
+MYH6,Myosin heavy chain 6 (alpha),Fast cardiac sarcomeric motor,GO:0008016 regulation of heart contraction; GO:0006936 muscle contraction,Downregulated in unloaded/failing hearts with isoform switch.
+BDNF,Brain-derived neurotrophic factor,Hippocampal plasticity neurotrophin,GO:0007399 nervous system development; GO:0050804 modulation of synaptic transmission,Reduced by flight stress and in Alzheimer disease.
+GFAP,Glial fibrillary acidic protein,Astrocyte intermediate filament,GO:0007399 nervous system development; GO:0006954 inflammatory response,Gliosis marker elevated after irradiation and injury.
+APOE,Apolipoprotein E,Lipid carrier and amyloid modulator,GO:0007399 nervous system development; GO:05010 Alzheimer disease,E4 allele is the strongest late-onset Alzheimer risk factor.
+MAPT,Microtubule associated protein tau,Axonal microtubule stabilizer,GO:0007399 nervous system development; GO:05010 Alzheimer disease,Hyperphosphorylated tangles define tauopathies.
+SOD1,Superoxide dismutase 1,Cytosolic antioxidant enzyme,GO:0006979 response to oxidative stress; GO:0006801 superoxide metabolism,Detoxifies superoxide; mutations cause ALS.
+SOD2,Superoxide dismutase 2,Mitochondrial antioxidant enzyme,GO:0006979 response to oxidative stress; GO:0006801 superoxide metabolism,Protects mitochondria from radiation-induced ROS.
+CAT,Catalase,Hydrogen-peroxide detoxifier,GO:0006979 response to oxidative stress; GO:0042744 hydrogen peroxide catabolism,Core peroxisomal antioxidant suppressed in flight liver.
+NFE2L2,NRF2,Master antioxidant transcription factor,GO:0006979 response to oxidative stress; GO:0034599 cellular response to oxidative stress,Activates detoxification battery mitigating radiation injury.
+HMOX1,Heme oxygenase 1,Stress-inducible cytoprotective enzyme,GO:0006979 response to oxidative stress; GO:0097237 cellular response to hypoxia,Marker of oxidative load in brain and liver after flight.
+TGFB1,Transforming growth factor beta 1,Profibrotic/immunosuppressive cytokine,GO:0030198 extracellular matrix organization; GO:04350 TGF-beta signaling,Drives cardiac fibrosis and muscle catabolism.
+MMP9,Matrix metallopeptidase 9,Extracellular-matrix degrading enzyme,GO:0030198 extracellular matrix organization; GO:0045453 bone resorption,"Remodels bone, vessels and heart under unloading."
+ESR1,Estrogen receptor 1,Hormonal regulator of bone mass,GO:0001503 ossification; GO:04915 estrogen signaling,GWAS BMD locus; mediates postmenopausal bone loss.
+VDR,Vitamin D receptor,Calcium-homeostasis nuclear receptor,GO:0001503 ossification; GO:0006874 calcium ion homeostasis,Required for mineralization; target of vitamin D supplementation.
+PTH1R,PTH/PTHrP receptor,Remodeling GPCR,GO:0001503 ossification; GO:0006874 calcium ion homeostasis,Target of teriparatide anabolic osteoporosis therapy.
+COL1A2,Collagen type I alpha 2,Bone matrix collagen chain,GO:0030198 extracellular matrix organization; GO:0001503 ossification,Variants affect bone strength and fracture risk.
+TIMP1,TIMP metallopeptidase inhibitor 1,Endogenous MMP brake,GO:0030198 extracellular matrix organization; GO:0045453 bone resorption,Balances fibrotic and resorptive remodeling.
+MB,Myoglobin,Muscle oxygen-storage hemoprotein,GO:0006936 muscle contraction; GO:0015671 oxygen transport,Reflects oxidative capacity; falls with disuse fiber shift.
